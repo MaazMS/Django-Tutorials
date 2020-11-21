@@ -1,0 +1,14 @@
+{% extends 'base.html'%}
+<html lang="en">
+<head>
+     {% block head%}
+    <title>Home</title>
+     {% endblock%}
+</head>
+<body>
+<h1>Home h1 tag outside of block body</h1>
+{% block body%}
+<h1>home  h1 tag inside of block body </h1>
+{% endblock  %}
+</body>
+</html>
